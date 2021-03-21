@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".root", ".root", "{38133CC9
 		debugtarget.props = debugtarget.props
 		directory.build.props = directory.build.props
 		directory.build.targets = directory.build.targets
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
 		LICENSE = LICENSE
 		README.md = README.md
 		releasenotes.xml = releasenotes.xml
