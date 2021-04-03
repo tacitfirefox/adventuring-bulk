@@ -24,14 +24,9 @@ namespace bulk.abstractions
         public Volume Volume { get; }
 
         /// <summary>
-        /// Gets the slot(s) this container can be equipped to on a person.
+        /// Gets the slot this container can be equipped to on a person.
         /// </summary>
-        public PersonalEquipmentSlots EquipmentSlot { get; }
-
-        /// <summary>
-        /// Gets the storage option(s) this container can be placed.
-        /// </summary>
-        public StorageOptions StorageOptions { get; }
+        public IEquipmentSlot EquipmentSlot { get; }
 
         /// <summary>
         /// Gets the number of inventory slots this container holds.
